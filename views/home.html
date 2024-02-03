@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>What is Your Name</h1>
-    <input type="text" name="text" id="text"><br><br>
-    <button>send to DB</button>
-</body>
+    <style>
+        input,button{
+            font-size: 33px;
+        }
+    </style>
+  </head>
+  <body>
+    <form name="username" action="/" method="post">
+      <h1>What is Your Name</h1>
+      <input type="text" name="text" id="text" /><br /><br />
+      <button>send to DB</button>
+    </form>
+  </body>
 </html>
